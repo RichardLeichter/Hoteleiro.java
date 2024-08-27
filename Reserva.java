@@ -4,7 +4,7 @@ public class Reserva {
     private int dias;
 
 
-    public Reserva(Quarto quarto, String nomeCliente, int dias) {
+    public Reserva() {
         this.quarto = quarto;
         this.nomeCliente = nomeCliente;
         this.dias = dias;

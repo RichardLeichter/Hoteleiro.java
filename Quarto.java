@@ -1,6 +1,7 @@
 public class Quarto {
     private int numero;
-    private double precoDiaria;
+    private double precoDiaria = 60;
+    //String.format("%.2f"), precoDiaria;
     private boolean disponivel;
 
     public Quarto(int numero, double precoDiaria) {
@@ -35,6 +36,6 @@ public class Quarto {
 
     @Override
     public String toString() {
-        return "Quarto [numero=" + numero + ", precoDiaria=" + precoDiaria + ", disponivel=" + disponivel + "]";
+        return "\n" + "Quarto= " + numero   + ", Diaria R$" + precoDiaria + ", disponivel=" + disponivel + "\n" ;
     }
 }
